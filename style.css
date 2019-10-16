@@ -1,0 +1,191 @@
+
+*{  
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    color: black;
+}
+
+header{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.45 ),rgba(0,0,0,0.45)),
+     url(./backgroundimage.JPG);
+    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    font-weight: 150;
+    
+}
+a{
+    text-decoration: none;
+}
+
+li{ 
+    font-size: 1.2rem;
+    margin-right: 2.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration:none;
+    border-bottom: 0.2rem solid transparent;
+
+}
+
+h1{
+
+   /* margin-top: 12rem;
+    text-align: center; */
+    
+    font-size: 2.5rem;
+    color: yellowgreen; 
+    font-weight: 300;
+    letter-spacing: 0.2rem ;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+li:hover{
+    border-bottom: 0.2rem solid brown;
+}
+
+.showcase{
+    position : absolute;
+    top: 10rem;
+    left: 10rem;
+}
+
+.btns{
+    margin-top: 1rem;
+}
+
+.btn{
+    color : white;
+    background-color : #2ecc71;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    border-radius: 2rem;
+}
+
+.btn-full{
+    border-width: 0.2rem;
+    border-style: solid;
+    border-color: #2ecc71;
+    transition: transform 0.3s;
+}
+
+.btn-empty{
+    color: #2ecc71;
+    background-color: transparent;
+    border-width: 0.2rem;
+    border-style: solid;
+    border-color: #2ecc71;
+    transition: transform 0.3s, color  0.3s, background-color 0.3s;
+}
+
+.btn-full:hover{
+    transform: scale(1.2);
+}
+
+.btn-empty:hover{
+    transform: scale(1.2);
+    color: white;
+    background-color : #2ecc71;
+}
+
+h2{
+    padding-bottom: 1rem;
+}
+
+main{
+    margin : 4rem;
+    background-color: white;
+    color : black;
+    text-align: center;
+}
+
+.article{
+    background-color: white;
+    color : black;
+    display : flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+
+.underline::after{
+    display: block;
+    content: "";
+    height: 0.2rem;
+    width: 6rem;
+    margin-top: 1rem;
+    margin-left: 33rem;
+    background-color: #2ecc71;
+}
+
+.container{
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+    text-align: left;
+}
+
+.icons{
+    color : #2ecc71;
+    margin-left: 3rem;
+    margin-right: 0.5;
+    font-size: 1.8rem;
+}
+
+.page2{
+    background-color: grey;
+    color : black;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.iphone{
+    height: 50vh;
+    margin-left: 10rem;
+}
+
+.city_image{
+    height : 10rem;
+    width : 15rem;
+}
+
+.line{
+    display: flex;
+}
+
+.city{
+    margin-left: 3rem;
+    text-align: left;
+}
+
+.cities{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.page4{
+    background-image: linear-gradient(rgba(0,0,0,0.45 ),rgba(0,0,0,0.45)),
+    url(./Images/bg.jpeg);
+    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed; 
+    color: white;
+}
+
+.form{
+    display: inline-block;
+}
+
